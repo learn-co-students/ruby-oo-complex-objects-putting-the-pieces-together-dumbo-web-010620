@@ -1,20 +1,19 @@
 # Make your shoe class here!
 class Shoe
-    attr_accessor :condition
+    attr_accessor :color, :condition 
     def initialize(brand,condition = "tattered")
         @brand = brand
-        @condition = condition
     end
 
     def brand
         @brand
     end
-    def color=(color)
-        @color = color
-    end
-    def color
-        @color
-    end
+    # def color=(color)
+    #     @color = color
+    # end
+    # def color
+    #     @color
+    # end
     def size=(size)
         @size = size
     end
